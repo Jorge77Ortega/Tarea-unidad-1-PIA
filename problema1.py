@@ -8,5 +8,7 @@ def limpiar_lista(lista):
 
     return lista_ordenada
 
-prueba = [4,-1,2,4,3,-5,2]
-print(limpiar_lista(prueba))
+if __name__ == "__main__":#Por si se importa para pruebas automatizadas
+    
+    prueba = [4,-1,2,4,3,-5,2]
+    print(limpiar_lista(prueba))
